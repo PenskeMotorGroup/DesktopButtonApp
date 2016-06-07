@@ -1,0 +1,59 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#clickMe {
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+	color: white;
+	background-color: rgb(26, 188, 156);
+	border-bottom: 4px solid rgb(22, 160, 133);
+	padding: 8px;
+	text-align: center;
+	font-weight: bold;
+	height: 20px;
+	font-size: 18px;
+}
+
+.drag {
+	background-color: #1abc9c;
+	height: 36px;
+	width: 15px;
+	cursor: move;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2NkwAIYsQqKLWj9D5J4lVANV8CIVRCbdgB1UwgGVTfYGAAAAABJRU5ErkJggg==) repeat;
+	/* Make window draggable */
+	-webkit-app-region: drag
+}
+
+/* Animate button while loading */
+
+.loading ~ .drag {
+  opacity: 0;
+}
+
+.loading {
+    animation: loading 1s infinite alternate;
+}
+
+@keyframes loading {
+    0% {
+        background: #f1c40f;
+        border-color: #f39c12;
+    }
+    50% {
+        background: #e67e22;
+        border-color: #d35400;
+    }
+    100% {
+        background: #e74c3c;
+        border-color: #c0392b;
+    }
+}
