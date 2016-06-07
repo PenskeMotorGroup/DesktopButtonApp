@@ -23,4 +23,8 @@ Read more about Chrome App-specific considerations [here](https://developer.chro
 
 ## Distribution
 
-Want to share the magic :tada: with others? Learn more about [hosting](https://developer.chrome.com/apps/hosting) and [packaging](https://developer.chrome.com/apps/packaging). You can even set up automatic updates, public distribution, and more! :revolving_hearts:
+Want to share the magic :tada: with others? Learn more about [hosting](https://developer.chrome.com/apps/hosting) and [packaging](https://developer.chrome.com/apps/packaging). You can even set up automatic updates, public distribution, and more!
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tylermakin/DesktopButtonApp/master/img/button.png" alt="screenshot" height="200" />
+</p>
