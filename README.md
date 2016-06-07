@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tylermakin/DesktopButtonApp/master/assets/screenshot.png" alt="screenshot" />
+</p>
+
 # Desktop Button Chrome App
 
 This is a simple Internet of Things style button :red_circle: for your computer's desktop :computer:, configured as a Chrome App :mag:. The button can be configured to display on top of all other windows and is draggable :hand: to anywhere on your screen. Because it runs entirely on CSS, HTML, and JavaScript, the button is easy to edit :pencil: for anyone with basic web programming knowledge.
