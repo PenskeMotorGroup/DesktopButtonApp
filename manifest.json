@@ -9,7 +9,7 @@
 	"manifest_version": 2,
 	"name": "Desktop Button Chrome App",
 	"description": "An Internet of Things button for your computer desktop",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"icons": {
 		"16": "img/button_16.png",
 		"48": "img/button_48.png",
